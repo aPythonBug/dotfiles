@@ -1,3 +1,6 @@
+" color schema                                                                                                                                                                                                                  
+colorscheme torte                                                                                                                                                                                                               
+
 " enable syntax highlighting
 syntax enable
 
