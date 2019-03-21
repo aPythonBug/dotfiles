@@ -116,3 +116,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# This will work on virtual machines to don't get the error of
+# perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+# when you try to install software
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_TYPE=en_US.UTF-8
