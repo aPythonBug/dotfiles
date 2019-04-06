@@ -117,6 +117,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Make vim my default cli text editor.
+export EDITOR='vim'
+export VISUAL='vim'
+
 # This will work on virtual machines to don't get the error of
 # perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
 # when you try to install software
